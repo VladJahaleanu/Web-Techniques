@@ -1,0 +1,268 @@
+.title {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    font-size: 36px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.subtitle {
+    color: #999;
+
+    margin-bottom: 1em;
+
+    font-family: 'Lato', sans-serif;
+
+    font-size: 1.5em;
+
+    line-height: 1em;
+
+    text-transform: uppercase;
+
+    text-align: center;
+
+}
+
+
+
+.menu{
+    width: 990px;
+    margin: 80px auto 0 auto;
+    text-align: center;
+
+}
+
+/*elementul sa fie de tip inline-block
+marginea din dreapta sa fie de 10px
+marginea din stanga sa fie de 20px
+padding-ul sa fie de 10px 40px 10px 40px
+fundalul sa fie alb
+scoateti text-decoration
+grosimea fontului sa fie bold
+textul sa fie scris numai cu litere mari
+tipul fontului sa fie Lato
+marimea fontului sa fie de 14px
+culoarea sa fie #999
+alinierea verticala sa fie la baza de jos*/
+.menu-item {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 20px;
+    padding: 10px 40px 10px 40px;
+    background: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #999;
+    vertical-align: bottom;
+}
+
+.menu-item-active {
+    position: relative;
+    bottom: -1px;
+    color: #c0392b;
+    padding: 15px 40px 15px 40px;
+    margin-top: 0;
+}
+
+hr {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 1px, solid, #f1f1f1;
+}
+
+.resume-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 60px;
+    color: #555;
+
+}
+
+.resume-subtitle {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    color: #555;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+.resume-date {
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    background: #5BC0DE;
+    color:white;
+    margin-left: 630px;
+    border-radius: 3px;
+    text-align: center;
+    margin-right:20px;
+    position:relative;
+    top:-40px;
+}
+
+.resume-date--green {
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    background-color: #5DB85C;
+    
+}
+
+.resume-date--yellow {
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    background-color: #F1C40F;
+    
+}
+
+.resume-date--red {
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    background-color: #C0392B;
+    
+}
+
+ul {
+    list-style: none;
+   }
+
+.skills-item {
+    font-family: 'Lato', sans-serif;
+    font-size:15px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 15px;
+    margin-left: -30px;
+}
+
+.skills-bg {
+    display:block;
+    border-radius:3px;
+}
+
+.photoshop {
+    background: #5DB85C;
+    width: 45%;
+    background-image: linear-gradient(135deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); 
+}
+.ilustrator {
+    background:orange;
+    width: 80%;
+    background-image: linear-gradient(135deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); 
+}
+
+.indesign {
+    background: #8E44AD;
+    width: 65%;
+    background-image: linear-gradient(135deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); 
+}
+
+.xd {
+    background:pink;
+    width: 100%;
+    background-image: linear-gradient(135deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); 
+}
+
+.sketch {
+    background: #2C3E50;
+    width: 30%;
+    background-image: linear-gradient(135deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); 
+}
+
+.office {
+    background: #c0392b;
+    width: 85%;
+    background-image: linear-gradient(135deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); 
+}
+
+.linux {
+    background: lightslategray;
+    width:50%;
+    background-image: linear-gradient(135deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); 
+}
+
+.user {
+    background: #5DB85C;
+    width: 68%;
+    background-image: linear-gradient(135deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); 
+}
+
+.typography{
+    background: orange;
+    width:50%;
+    background-image: linear-gradient(135deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); 
+}
+
+.web {
+    background: #8E44AD;
+    width: 80%;
+    background-image: linear-gradient(135deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); 
+}
+
+.html {
+    background: #5DB85C;
+    width:60%;
+    background-image: linear-gradient(135deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); 
+}
+
+.php {
+    background: orange;
+    width: 50%;
+    background-image: linear-gradient(135deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); 
+}
+
+.javascript {
+    background: #8E44AD;
+    width: 66%;
+    background-image: linear-gradient(135deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); 
+}
+
+.ruby {
+    background: #F1C40F;
+    width: 30%;
+    background-image: linear-gradient(135deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); 
+}
+
+.python {
+    background: #2C3E50;
+    width: 80%;
+    background-image: linear-gradient(135deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); 
+}
+
+/*.skills-bg:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-image: linear-gradient(135deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent); 
+    background-size: 5rem 5rem;
+    z-index: 1;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    overflow: hidden;
+  }*/
+
+
+
+
+
+
+
